@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: #F1F1F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    max-height: 100vh;
+    min-height: 70vh;
+    width: 30rem;
+    background: #ffffff;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.box h1 {
+    font-size: 3rem;
+    color: #414141;
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .input-inputbtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-inputbtn .input {
+    width: 75%;
+    height: 2rem;
+    border-radius: 0.3rem;
+    outline: none;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.input-inputbtn .button-input {
+    height: 2rem;
+    background: #00AEA4;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    width: 10%;
+    margin-left: 0.2rem;
+}
+
+.box ul li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ccc;
+    margin: 1rem 2rem 0 2rem;
+    padding: 0.5rem;
+}
+
+.box ul li span {
+    padding-left: 1rem;
+}
+
+.box ul li button {
+    height: 1.8rem;
+    font-size: 0.7rem;
+    width: 4rem;
+    background: #FE0000;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
